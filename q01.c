@@ -24,5 +24,5 @@ int main(void){
         printf("Invalid, you cannot have studied a negative number of hours!");
     }
     
-    return 0;
+    return 0; 
 }
