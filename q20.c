@@ -1,4 +1,3 @@
-// Online C compiler to run C program online
 #include <stdio.h>
 #include <string.h>
 
@@ -6,6 +5,7 @@ int main() {
     
     char colour1[10];
     char colour2[10];
+    char same[10];
     
     printf("First colour?\n");
     scanf("%s", &colour1);
@@ -38,13 +38,10 @@ int main() {
             }
         }
 
-      // this bitch probly dont work
         else if (strcmp(colour1, colour2) == 0)
         {
-            printf("Result is the same as input colour: %s\n", colour1);
+            printf("\n%s and %s mix to make %s", colour1, colour1, colour1);
         }
-        
-    
     
     return 0;
 }
